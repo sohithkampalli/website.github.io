@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Grocery Store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Our Online Grocery Store</h1>
+        <p>Find fresh groceries and more.</p>
+        <!-- Background image set via CSS -->
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <p>Explore our wide range of groceries.</p>
+        <!-- Product listings -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our store and values.</p>
+        <!-- Insert video here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Grocery Store</p>
+    </footer>
+</body>
+</html>
